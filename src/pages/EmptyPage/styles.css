@@ -1,0 +1,9 @@
+.empty-page {
+  padding: 100px 0;
+  text-align: center;
+  display: grid;
+  gap: 12px;
+}
+
+.empty-page h1 { font-size: 32px; color: var(--dark-gray); }
+.empty-page a { color: var(--primary); text-decoration: underline; }

@@ -1,0 +1,96 @@
+.header {
+  background: var(--white);
+  padding: 24px 0 0;
+}
+
+.header__top {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+/* Campo de busca */
+.search {
+  flex: 1;
+  min-width: 240px;
+  max-width: 559px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background: var(--light-gray-3);
+  border-radius: 8px;
+  padding: 0 20px;
+}
+
+.search__input {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  color: var(--dark-gray-2);
+}
+
+.search__input::placeholder { color: var(--light-gray); }
+
+.search__button {
+  display: flex;
+  background: none;
+  border: none;
+}
+
+/* Cadastre-se / Entrar / carrinho */
+.header__actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-left: auto;
+}
+
+.header__signup {
+  font-size: 16px;
+  color: var(--dark-gray-2);
+  text-decoration: underline;
+}
+
+.header__login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 114px;
+  height: 40px;
+  background: var(--primary);
+  color: var(--white);
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.header__login:hover { background: var(--tertiary); }
+
+.header__cart { width: 24px; height: 24px; }
+
+/* Navegação principal */
+.nav {
+  display: flex;
+  gap: 32px;
+  margin-top: 28px;
+  flex-wrap: wrap;
+}
+
+.nav__link {
+  padding-bottom: 12px;
+  font-size: 16px;
+  color: var(--dark-gray-2);
+  border-bottom: 2px solid transparent;
+}
+
+.nav__link:hover { color: var(--primary); }
+
+.nav__link--active {
+  color: var(--primary);
+  font-weight: 700;
+  border-bottom-color: var(--primary);
+}

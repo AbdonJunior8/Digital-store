@@ -1,0 +1,13 @@
+.home__gallery { margin-inline: auto; }
+
+.home__collections {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.home__collections img {
+  width: 405px;
+  border-radius: 4px;
+}

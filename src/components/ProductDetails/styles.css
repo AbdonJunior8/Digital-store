@@ -1,0 +1,17 @@
+.product-details {
+  display: grid;
+  grid-template-columns: minmax(0, 700px) minmax(0, 1fr);
+  gap: 48px;
+  align-items: start;
+}
+
+.product-details__group h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--light-gray);
+  margin-bottom: 8px;
+}
+
+@media (max-width: 960px) {
+  .product-details { grid-template-columns: 1fr; }
+}
